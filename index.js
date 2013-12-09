@@ -18,7 +18,7 @@ module.exports = share;
  */
 
 function share(url, opts, fn) {
-  if (arguments.length > 1) {
+  if ('undefined' != typeof FB && arguments.length > 1) {
     // javascript sdk version.
     if ('function' == typeof opts) {
       fn = opts;
