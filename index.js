@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var open = require('open-window');
+var open = require('viatropos-open-window');
 
 /**
  * Expose `share`.
